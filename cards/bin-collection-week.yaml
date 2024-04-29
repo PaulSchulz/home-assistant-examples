@@ -1,0 +1,21 @@
+type: custom:mushroom-template-card
+primary: 'Bin Collection Week'
+secondary: |-
+  {% set bin_day = 1 %} 
+  {% set bin_week = now() - timedelta(days=bin_day) %}
+
+  {% if bin_week.isocalendar().week % 2 != 0 %}
+  Green
+  {% else %}
+  Yellow
+  {% endif %}
+icon: mdi:trash-can
+icon_color: |-
+  {% set bin_day = 1 %}
+  {% set bin_week = now() - timedelta(days=bin_day) %}
+
+  {% if bin_week.isocalendar().week % 2 != 0 %}
+  green
+  {% else %}
+  yellow
+  {% endif %}
