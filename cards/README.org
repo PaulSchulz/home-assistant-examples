@@ -3,6 +3,8 @@
 Copy the YAML code to the GUI editor to setup these card examples.
 
 * Bin Collection Week - bin-collection-week.yaml
+File: [[bin-collection-week.yaml]]
+
 The YAML for this card will display the bin collection type for the week - eg.
 Green or Yellow - where the local council bin collection alternates between the
 two bin types.
