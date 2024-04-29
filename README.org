@@ -7,5 +7,5 @@
 This projects contains examples of code and configurations for Home Assistant
 which I have found to be useful from time to time.
 
-See sub-directories for examples.
-
+See sub-directories for examples:
+- [[cards/]]
